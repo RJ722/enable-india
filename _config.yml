@@ -4,7 +4,7 @@ bio:                'Developing industry ready India'
 description:        "Developing industry ready India"
 locale:             en_US
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "/" # the base hostname & protocol for your site
+url: "https://rj722.github.io/jekyll-theme-massively-src" # the base hostname & protocol for your site
 
 defaults:
 - scope:
