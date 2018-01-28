@@ -1,0 +1,107 @@
+---
+layout: null
+title: Enable India - Home Page
+description: Empwering young India become more enterprise ready.
+sitemap:
+    priority: 1.0
+    lastmod: 2018-01-29
+    changefreq: weekly
+---
+<!DOCTYPE HTML>
+<html>
+	<head>
+    {% include head.html %}
+	</head>
+	<body class="is-loading">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+
+				<!-- Intro -->
+					<div id="intro">
+            <h1>{{site.title}}</h1>
+						<p>Enable-India is an initiave in the direction of increasing employability of Indian youth.
+						<ul class="actions">
+							<li><a href="#header" class="button icon solo fa-arrow-down scrolly">Continue</a></li>
+						</ul>
+					</div>
+
+				<!-- Header -->
+					<header id="header">
+						<a href="{{ "/" | absolute_url }}" class="logo">{{site.title}}</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+
+            {% include nav.html %}
+
+						<ul class="icons">
+              <li><a href="https://twitter.com/{{site.twitter}}" class="icon fa-twitter" rel="nofollow"><span class="label">Twitter</span></a></li>
+              <li><a href="https://facebook.com/{{site.facebook}}" class="icon fa-facebook" rel="nofollow"><span class="label">Facebook</span></a></li>
+              <li><a href="https://instagram.com/{{site.instagram}}" class="icon fa-instagram" rel="nofollow"><span class="label">Instagram</span></a></li>
+              <li><a href="https://github.com/{{site.github}}" class="icon fa-github" rel="nofollow"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+						<!-- Featured Post -->
+							<article class="post featured">
+								<header class="major">
+									<h2><a href="#">ENABLE INDIA</a></h2>
+									<p>“Thinking is the capital, Enterprise is the way, Hard Work is the solution”
+								</header>
+								<a href="#" class="image main"><img src="{{ "/images/pic01.jpg" | absolute_url }}" alt="" /></a>
+
+							</article>
+                        <article>
+                                <h2>Upcoming Events</h2>
+                                <div class="box">
+                                    <h3> Event 1</h3>
+                                    <p>Information about event 1</p>
+                                </div>
+                            <div class="box">
+                                <h3>Event 2</h3>
+                                <p>Information about event 2</p>
+                            </div>
+                        </article>
+
+						<!-- Posts -->
+							<section class="posts">
+                {% for post in site.posts limit:4 %}
+                    <article>
+                        <header>
+                            <span class="date">{{ post.date | date_to_string }}</span>
+                            <h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
+                        </header>
+                        <a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}" alt="" /></a>
+                        <p align="center">{{ post.excerpt }}</p>
+                        <ul class="actions">
+                            <li><a href="{{ post.url | absolute_url }}" class="button">More</a></li>
+                        </ul>
+                    </article>
+                {% endfor %}
+
+							</section>
+
+						<!-- Footer -->
+							<footer>
+                <ul class="actions">
+                  <li><a href="{{ "/programs/" | absolute_url }}" class="button">All Programs</a></li>
+                </ul>
+							</footer>
+
+					</div>
+
+				<!-- Footer -->
+        {% include foot.html %}
+
+			</div>
+
+		<!-- Scripts -->
+		{% include scripts-main.html %}
+    {% include tracking.html %}
+
+	</body>
+</html>
