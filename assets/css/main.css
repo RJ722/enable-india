@@ -2041,7 +2041,7 @@
 		.button.special {
 			background-color: #212931;
 			box-shadow: none;
-			color: #ffffff !important;
+			color: black !important;
 		}
 
 			input[type="submit"].special:hover,
@@ -2339,7 +2339,7 @@
 		}
 
 	select option {
-		background-color: #ffffff;
+		background-color: black;
 		color: #212931;
 	}
 
@@ -2361,7 +2361,7 @@
 	input[type="radio"]:checked + label:before {
 		background-color: #212931;
 		border-color: #212931;
-		color: #ffffff;
+		color: black;
 	}
 
 	input[type="checkbox"]:focus + label:before,
@@ -3027,8 +3027,8 @@
 			left: 0;
 			width: 100%;
 			height: 100%;
-			background-color: #212931;
-			background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/bg.jpg");
+			background-color: white;
+			/* background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/bg.jpg"); */
 			background-size: auto,								auto,														100% auto;
 			background-position: center,								center,														top center;
 			background-repeat: repeat,								no-repeat,													no-repeat;
@@ -3067,7 +3067,7 @@
 		}
 
 		body.is-loading #wrapper.fade-in:before {
-			opacity: 1;
+			opacity: 0;
 		}
 
 		@media screen and (orientation: portrait) {
@@ -3081,7 +3081,7 @@
 /* Intro */
 
 	#intro {
-		color: #ffffff;
+		color: black;
 		padding: 8rem 4rem 6rem 4rem ;
 		-moz-align-items: center;
 		-webkit-align-items: center;
@@ -3111,11 +3111,11 @@
 	}
 
 		#intro input, #intro select, #intro textarea {
-			color: #ffffff;
+			color: black;
 		}
 
 		#intro a {
-			color: #ffffff;
+			color: black;
 			border-bottom-color: rgba(255, 255, 255, 0.5);
 		}
 
@@ -3125,24 +3125,24 @@
 			}
 
 		#intro strong, #intro b {
-			color: #ffffff;
+			color: black;
 		}
 
 		#intro h1, #intro h2, #intro h3, #intro h4, #intro h5, #intro h6 {
-			color: #ffffff;
+			color: black;
 		}
 
 		#intro blockquote {
-			border-left-color: #ffffff;
+			border-left-color: black;
 		}
 
 		#intro code {
 			background: rgba(255, 255, 255, 0.075);
-			border-color: #ffffff;
+			border-color: black;
 		}
 
 		#intro hr {
-			border-bottom-color: #ffffff;
+			border-bottom-color: black;
 		}
 
 		#intro input[type="submit"],
@@ -3151,8 +3151,8 @@
 		#intro button,
 		#intro .button {
 			background-color: transparent;
-			box-shadow: inset 0 0 0 2px #ffffff;
-			color: #ffffff !important;
+			box-shadow: inset 0 0 0 2px black;
+			color: black !important;
 		}
 
 			#intro input[type="submit"]:hover,
@@ -3169,7 +3169,7 @@
 			#intro input[type="button"].special,
 			#intro button.special,
 			#intro .button.special {
-				background-color: #ffffff;
+				background-color: black;
 				box-shadow: none;
 				color: #1e252d !important;
 			}
@@ -3293,7 +3293,7 @@
 /* Header */
 
 	#header {
-		color: #ffffff;
+		color: black;
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
@@ -3326,11 +3326,11 @@
 	}
 
 		#header input, #header select, #header textarea {
-			color: #ffffff;
+			color: black;
 		}
 
 		#header a {
-			color: #ffffff;
+			color: black;
 			border-bottom-color: rgba(255, 255, 255, 0.5);
 		}
 
@@ -3340,24 +3340,24 @@
 			}
 
 		#header strong, #header b {
-			color: #ffffff;
+			color: black;
 		}
 
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
-			color: #ffffff;
+			color: black;
 		}
 
 		#header blockquote {
-			border-left-color: #ffffff;
+			border-left-color: black;
 		}
 
 		#header code {
 			background: rgba(255, 255, 255, 0.075);
-			border-color: #ffffff;
+			border-color: black;
 		}
 
 		#header hr {
-			border-bottom-color: #ffffff;
+			border-bottom-color: black;
 		}
 
 		#header .logo {
@@ -3370,7 +3370,7 @@
 			-ms-pointer-events: auto;
 			pointer-events: auto;
 			border-style: solid;
-			border-color: #ffffff;
+			border-color: black;
 			border-width: 5px !important;
 			font-family: "Source Sans Pro", Helvetica, sans-serif;
 			font-size: 2.25rem;
@@ -3412,7 +3412,7 @@
 /* Nav */
 
 	#nav {
-		color: #ffffff;
+		color: black;
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -3434,7 +3434,7 @@
 	}
 
 		#nav ul.divided li {
-			border-top-color: #ffffff;
+			border-top-color: black;
 		}
 
 		#nav ul.icons li a.icon:hover:before {
@@ -3442,7 +3442,7 @@
 		}
 
 		#nav ul.icons.alt li .icon:before {
-			box-shadow: inset 0 0 0 2px #ffffff;
+			box-shadow: inset 0 0 0 2px black;
 		}
 
 		#nav ul.icons.alt li a.icon:hover:before {
@@ -3450,11 +3450,11 @@
 		}
 
 		#nav input, #nav select, #nav textarea {
-			color: #ffffff;
+			color: black;
 		}
 
 		#nav a {
-			color: #ffffff;
+			color: black;
 			border-bottom-color: rgba(255, 255, 255, 0.5);
 		}
 
@@ -3464,24 +3464,24 @@
 			}
 
 		#nav strong, #nav b {
-			color: #ffffff;
+			color: black;
 		}
 
 		#nav h1, #nav h2, #nav h3, #nav h4, #nav h5, #nav h6 {
-			color: #ffffff;
+			color: black;
 		}
 
 		#nav blockquote {
-			border-left-color: #ffffff;
+			border-left-color: black;
 		}
 
 		#nav code {
 			background: rgba(255, 255, 255, 0.075);
-			border-color: #ffffff;
+			border-color: black;
 		}
 
 		#nav hr {
-			border-bottom-color: #ffffff;
+			border-bottom-color: black;
 		}
 
 		#nav ul.links {
@@ -3528,7 +3528,7 @@
 					}
 
 				#nav ul.links li.active {
-					background-color: #ffffff;
+					border-bottom: 5px solid black;
 				}
 
 					#nav ul.links li.active a {
@@ -3562,7 +3562,7 @@
 /* Main */
 
 	#main {
-		background-color: #ffffff;
+		/* background-color: black; */
 		position: relative;
 		margin: 0 auto;
 		width: calc(100% - 4rem);
@@ -4184,7 +4184,7 @@
 		}
 
 	#copyright {
-		color: #ffffff;
+		color: black;
 		position: relative;
 		color: rgba(255, 255, 255, 0.25);
 		cursor: default;
@@ -4202,11 +4202,11 @@
 	}
 
 		#copyright input, #copyright select, #copyright textarea {
-			color: #ffffff;
+			color: black;
 		}
 
 		#copyright a {
-			color: #ffffff;
+			color: black;
 			border-bottom-color: rgba(255, 255, 255, 0.5);
 		}
 
@@ -4216,24 +4216,24 @@
 			}
 
 		#copyright strong, #copyright b {
-			color: #ffffff;
+			color: black;
 		}
 
 		#copyright h1, #copyright h2, #copyright h3, #copyright h4, #copyright h5, #copyright h6 {
-			color: #ffffff;
+			color: black;
 		}
 
 		#copyright blockquote {
-			border-left-color: #ffffff;
+			border-left-color: black;
 		}
 
 		#copyright code {
 			background: rgba(255, 255, 255, 0.075);
-			border-color: #ffffff;
+			border-color: black;
 		}
 
 		#copyright hr {
-			border-bottom-color: #ffffff;
+			border-bottom-color: black;
 		}
 
 		#copyright a {
@@ -4297,7 +4297,7 @@
 		top: 0.75rem;
 		right: 0.75rem;
 		border: 0;
-		color: #ffffff;
+		color: black;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 0.9rem;
 		font-weight: 900;
@@ -4328,7 +4328,7 @@
 		}
 
 			#navPanelToggle.alt:hover {
-				background-color: #ffffff;
+				background-color: black;
 			}
 
 		@media screen and (max-width: 980px) {
@@ -4359,7 +4359,7 @@
 		transition: transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
 		display: none;
 		-webkit-overflow-scrolling: touch;
-		background: #ffffff;
+		background: black;
 		box-shadow: none;
 		color: #212931;
 		height: 100%;
