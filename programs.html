@@ -1,1 +1,28 @@
-<h1> programs</h1>
+---
+layout: page
+title: Programs | Enable India
+description: A curated list of programs for engineering students and graduates.
+sitemap:
+    priority: 0.7
+    lastmod: 2018-01-29
+    changefreq: weekly
+---
+<h1>
+  PROGRAMS
+</h1>
+
+<section class="posts">
+  {% for post in site.posts %}
+      <article>
+        <div class="box">
+          <header>
+              <h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
+          </header>
+            <p align="center">{{ post.excerpt }}</p>
+            <ul class="actions">
+              <li><a href="{{ post.url | absolute_url }}" class="button">More</a></li>
+            </ul>
+        </div>
+      </article>
+  {% endfor %}
+</section>

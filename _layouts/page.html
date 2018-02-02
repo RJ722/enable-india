@@ -37,10 +37,14 @@
 					<!-- Footer -->
 						<footer>
               <ul class="actions">
-								<li><a href="{{ "/programs/" | absolute_url }}" class="button">Programs</a></li>
+								<li>
+									{% if page.url contains '/programs/' %}
+									{% else %}
+										<a href="{{ "/programs/" | absolute_url }}" class="button">Programs</a></li>
+									{% endif %}
               </ul>
-						</footer>
-					</div>
+  					</footer>
+				</div>
 
 				<!-- Footer -->
         {% include foot.html %}
