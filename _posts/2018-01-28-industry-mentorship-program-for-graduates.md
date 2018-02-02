@@ -2,7 +2,7 @@
 layout: post
 title:  "Industry mentorsip for Graduates"
 date:   2018-01-28
-excerpt: "A excerpt about industry mentorship for graduates"
+excerpt: "Equip the students with employability skills, knowledge and ability through an intensive 2 day monthly engagement spanning over 10 months."
 image: "/images/pic05.jpg"
 ---
 
